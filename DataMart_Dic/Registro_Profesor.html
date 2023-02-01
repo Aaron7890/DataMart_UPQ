@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Registro</title>
+	<meta charset="utf-8">
+
+
+	<link rel="stylesheet" href="css/Registro_Profesor.css">
+</head>
+<body style="background-image: url(Imagenes/Fondo.jpg);">
+
+<br></br><br></br>
+<div class="centrar">
+	<div class="formulario">
+		<div class="cabezera">
+		<div class="centrar">
+		<div class="Logo">
+		<img src="Imagenes/Logo_mecatronica.png" height="100px" width="100px">
+		</div>	
+
+       
+
+		</div>	
+		 <h4 style="color:black;font-family:verdana;" align="center">Registro Maestro</h4>
+		 <div class="centrar">
+         <div class="centrar_datos">
+		 
+
+		   <form  method="post" action="RegistroUs.php" >
+		      <p style= "color:black;font-family:"Times new roman" align="center">Nombre Completo</p>
+              <input style="color:black" class="form_cudrados" type="text" name="Nombre" value="" size="25" placeholder="ej. RAMIREZ JUAREZ JOSE ALBERTO"><br>
+         
+
+              <p style="font-family:"Times new roman " align="center">Correo institucional</p>
+              <input style="color:black" class="form_cudrados" type="text"  name="Correo" size="25" align="center" placeholder="ej. RAMIREZ.JOSE@UPQ.EDU.MX">
+
+             <p style="font-family:"Times new roman " align="center">Contraseña</p>
+             <input style="color:black" class="form_cudrados" type="Password"  name="Contraseña" size="25"> <br></br>
+
+             <p style="font-family:"Times new roman " align="center">Clave de registro</p>
+             <input style="color:black" class="form_cudrados" type="Password"  name="clave_registro" size="25"> <br></br>
+
+             <p style="font-family:"Times new roman " align="center" >Tipo de usuario</p>
+             
+             <input type="radio" id="" name="opcion_maestro" value="Maestro_tutor">Maestro-tutor 
+             <br>
+             <input type="radio" id="" name="opcion_maestro" value="Maestro">Maestro 
+              
+         
+              <br></br>
+             <input class="boton_ingresar " type="submit" value="Registrarse"  name="Registrarse_Profesor" >
+             <br></br>
+
+             
+         
+
+              </form>
+         
+         
+         
+         
+         </div>
+         </div>
+         </div>
+
+
+		</div>
+	</div>
+
+</div>
+
+
+
+
+</body>
+</html>

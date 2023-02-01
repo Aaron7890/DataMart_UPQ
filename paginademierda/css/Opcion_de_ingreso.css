@@ -1,0 +1,87 @@
+.centrar{
+	display: flex;
+	justify-content: center;
+}
+
+.Texto_formulario{
+	width: 500px;
+	height: 500px;
+	border-radius: 25px;
+}
+.formulario{
+	background-color: white;
+    height: 700px;
+	width:400px;
+	
+	opacity: 0.7;
+	border-radius: 25px;  
+}
+
+.cabezera{
+width:auto;
+height:100px;
+background-color:#ffffff;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+}
+
+.Logo{
+width:100px;
+height:100px;
+background-color:#ffffff; 
+}
+
+.form_cudrados{
+
+border-top-width:0 ;
+border-left-width:0; 
+border-right-width:0;
+border-bottom-color:#d9d9d9; 
+align-items: center;    
+}
+
+.centrar_form{
+width:auto;
+height:150px;
+background-color:#000000;
+}
+
+.centrar_datos{
+	height:100px;
+	width: 160px; 
+	
+}
+
+.boton_ingresar{
+	height:40px;
+	width: 160px;
+	border-radius:10px; 
+	border-right: 0;
+	border-bottom: 0;
+	background-color:#99ccff;
+	color:black;   
+
+}
+
+.boton_opciones{
+	height:20px;
+	width: 160px;
+	border-radius:5px; 
+	border-right: 0;
+	border-bottom: 0;
+	background-color:white;
+	color:black;   
+
+}
+
+.boton_siguiente{
+	height:20px;
+	width: 160px;
+	border: 
+	border-radius:5px; 
+	border-right: 0;
+	border-bottom: 0;
+
+	color:black;   
+
+}

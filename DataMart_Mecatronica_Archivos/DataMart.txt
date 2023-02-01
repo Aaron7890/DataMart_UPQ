@@ -1,0 +1,30 @@
+Acceso al servidor de base de datos:
+http://dim.upq.edu.mx/phpmyadmin/index.php
+
+Credenciales del acceso remoto al servidor de base de datos.
+usuario: bcastillo
+contra: wS531714DU
+-----------------------------------------------------------------
+Acesso al sitio web DIIM:
+Index: http://dim.upq.edu.mx/index.php
+-----------------------------------------------------------------
+Dirección remota del sitio web en el servidor remoto:
+/var/www/html
+Credenciales para el acceso remoto al servidor
+sftp://moodle2.upq.edu.mx
+Puerto:2234
+usuario: bcastillo
+contra: wS531387DU
+-----------------------------------------------------------------
+
+NOTA:Recuerden solicitar las credenciales completas.
+
+Credenciales para el acceso al servidor de base de datos y 
+credenciale para el acceso al servidor remoto para la manipulación 
+del sitio en tiempo real.
+
+NOTA: Se hace entrega de las credenciales para el acceso al servidor remoto y al servidor 
+de base de datos, por cual, me deslindo de toda modificación, alteración o eliminación del mismo, tanto de código fuente como de Base de Datos.
+
+Mi correo por si necesitan ayuda:
+019030418@upq.edu.mx

@@ -1,0 +1,180 @@
+	                  /* CODIGO DISEÑO DEL ENCABEZADO DE LA PAGINA */ 
+.Contenedor_Encabezado{
+	background-color:white; 
+	height:120px;
+}
+
+.Imagen_upq{
+	background-color:white;
+	height: 120px;
+	width: 120px;
+	float: left;
+}
+
+.Titulo_Contendor{
+	background-color:white;
+	height: 120px;
+	width: 500px;
+	float: left;
+}
+
+.Titulo_Titulo{
+	background-color:white;
+	height: 20px;
+	width: 500px;
+}
+
+
+
+.Contenedor_Principal{
+	background-color:white;
+	height:720px; 
+}
+
+
+                              /* CODIGO DE SEPARACIONES PARA EL CUADRO DE DATOS FOTO Y TABLA */ 
+.Contenedor_Principal_Datos{
+background-color:white;
+border:grey 0.2px solid;
+height:720px; 
+width:18%;
+float:left;
+}
+                                                        
+.FotoPerfil{
+background-color:white; 
+height:110px;
+text-align: center;
+border-left:grey 0.2px solid;
+border-top:grey 0.2px solid;
+
+padding-bottom: 0px;
+padding-top: 10px;
+}
+
+.Foto{
+display: flex;
+justify-content: center;
+background-color:white;
+height:100px;
+width: 100px;
+
+margin:0px auto;
+
+}
+
+.DatosAlumno{
+background-color:white; 
+height:598px;
+border:grey 0.2px solid;
+
+}	
+
+table.Tabla th{
+	background-color: #f6f6f6;
+    text-align: right;
+    width: 140px;
+    color: #666;
+    font-weight: bolder;
+    border-bottom: 0.2px solid #e9e9e9;
+    border-right: 0.2px solid #e9e9e9;
+    font-size:11px;
+    padding:5px;
+    font-family:calibri;
+}
+table.Tabla td{
+	font-size:10px;
+    padding:2px;
+    font-weight: normal;
+    font-family:arial;
+}
+
+
+
+                                              /*CUADRO DE OPCIONES DE LA PAGINA*/
+.Contenedor_Encabezado2{
+	background-color:#d9d9d9; 
+	height:720px;
+	border:grey 0.2px solid;
+	float: left;
+	width: 81.1%;
+}
+
+                                           /*ESTILO DE LA BARRA DE OPCIONES*/
+#header {
+width:500px;
+font-family:Calibri;
+}
+			
+ul, ol {
+list-style:none;
+}
+			
+.nav > li {
+float:left;
+}
+			
+.nav li a {
+background-color:#f6f6f6;
+color: #666;
+text-decoration:none;
+padding:1px 12px;
+border-radius: 4px;
+border:#e9e9e9 0.2px solid  ; 
+display:block;
+}
+
+.nav li a:hover {
+background-color:#ffffff;
+
+}			                              /*TERMINA ESTILO DE LA BARRA DE OPCIONES*/
+		
+.Contenedor_Secciones{
+	background-color:#d9d9d9;
+	height:40px;
+	justify-content: center;
+	border-right:grey 0.2px solid;
+	border-left:grey 0.2px solid;
+	border-top:grey 0.2px solid;
+}
+
+.Contenedor_Secentrar{
+display: flex;
+justify-content: center;
+background-color:#d9d9d9;
+height:30px;
+width: 500px;
+margin:0px auto;
+border-top:grey 0.2px solid;
+}			
+		                                /*BOTON TERMINAR SESION*/
+.boton_sesion{
+	height:20px;
+	width: 160px;
+	border-right: 0;
+	border-bottom-color: black 0.2px;
+	background-color:white;
+	color:black;   
+}
+
+                                        /*BOTON TERMINAR SESION*/
+
+.Cuadro_Calificaciones{
+	display: flex;
+	background-color:#d9d9d9;
+	height: 600px;
+	border-right:grey 0.2px solid;
+	justify-content: center;
+	padding-top:2px; 
+	
+
+}
+
+.Cuadro_Calificaciones2{
+	background-color:white;
+	height:150px;
+	width:98%;
+	
+	
+
+}
